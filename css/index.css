@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+		width: 100%;
+	/*	background: url(img/banner-20160810.jpg) no-repeat;*/
+	position: relative;
+	}
+	.headerimg{
+		width:100%;
+	}
+	.headercenter{
+		width: 640px;
+		height: 500px;
+		position: absolute;
+		top:25%;
+		margin-left:50%;
+
+	}
+	.headercenterText{
+	
+		position: absolute;
+		margin-left: -50%;
+		color: white;
+		text-align: center;
+		
+	}
+	.titletext{
+		font-size: 45px;
+		font-weight: bold;
+		letter-spacing: 0.3em;
+	}
+	.register{
+		display:inline-block;
+		width: 256px;
+		height: 60px;
+		line-height: 60px;
+		font-weight: bold;
+		text-decoration: none;
+		list-style: none;
+		border: 1px solid whitesmoke;
+		color: white;
+		border-radius: 2px;
+		margin-top:30%;
+		background: rgba(87,99,96,.2);
+	}
+	/*footer*/
+	footer{
+		width: 100%;
+		height: auto;
+		background: black;
+	}
+	.copy{
+		margin:30px 300px;
+		padding: 30px;
+		color:white;
+	}
+	.copy a{
+		color:white;
+	}
+
+
+//雪山
+	.back-img{
+		width: 100%;
+		height: 440px;
+		margin: 30px 0;
+		background: url(img/banner.jpg) no-repeat;
+		background-attachment: fixed;
+		background-origin: border-box;
+		box-sizing: border-box;
+	}
+	.back-img img{
+		width: 100%;
+		height: 100%;
+	}

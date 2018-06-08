@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>   APICloud跨平台云服务平台</title>
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<link href="css/public.css" type="text/css" rel="stylesheet">
+<style>
+	nav{
+		width: 100%;
+		height:75px;
+		position:fixed;
+		z-index: 999;
+		padding:15px;
+	}
+	.navlogo{
+		float: left;
+		margin-left:50px;
+	}
+	.navright{
+		float:right;
+		margin-right: 50px ;
+		text-align: center;
+	}
+	.navright dl{
+		float: left;
+		width: 60px;		
+		height: 20px;
+		/*display: inline-block;*/
+		/*border: 1px solid black;*/
+		padding: 10px 20px;
+	}
+	.navright dl dt{
+		clear: both;
+		margin-bottom: 30px;
+		
+	}
+	.navright dl dd{		
+			text-align: left;
+			width: 260px;
+			margin-left:-20px ;
+			line-height: 30px;
+			background: black;
+			color: white;
+			display: none;
+			
+	}
+	.navlistBox{
+		padding-left: 20px;
+	}
+	.navright > dl:hover,
+	.navright > dl:focus{
+  	background-color: #eee;
+}
+	.navlist-left{
+		width: 30px;
+		height: 30px;;
+		float: left;
+		margin:15px 15px 0 0;
+		border:1px solid red;
+		vertical-align: middle;
+			
+	}
+	.navlistBox p:last-child{
+		font-size: 12px;
+	}
+	.subment-icon1{
+		background: url(img/subment-icon.png) no-repeat 0 -30px;
+	}
+	.subment-icon2{
+		background: url(img/subment-icon.png) no-repeat -30px -30px;
+	}
+	.subment-icon3{
+	background: url(img/subment-icon.png) no-repeat -60px -30px;
+	}
+	#box-md-6  dd{
+		width: 95px;
+		text-align: center;
+		border: 1px solid red;
+	}
+	
+    main{
+	width: 1000px;
+	margin:0 auto;
+	
+	text-align: center;
+	
+}
+.box{	
+	display: flex;
+}
+.colorF9{
+	color:#999999;
+}
+.runway{
+	flex: 3;
+	border: 2px solid #9BC200;
+	margin: 30px;
+	padding: 15px;
+	border-radius:50px;
+	max-width: 253px;
+}
+.runway p{
+	line-height: 35px;
+}
+/*手机盒子*/
+.phonebox{
+	height: 410px;
+	border: 1px solid chartreuse;
+	
+}
+.btn-lg{
+	width: 236px;
+	height:60px;
+	background: #9BC200;
+}
+</style>
+</head>
+
+<body>
+<!--nav-->
+<nav>
+	<div class="navlogo">
+		<div><img src="img/logo-light.png" alt="logo" title="APICouldlogo" /></div>
+	</div>
+	<div class="navright">
+		<dl>
+			<dt>APP开发</dt>
+				<dd>
+					<div class="navlistBox">				
+					<div class="navlist-left subment-icon1"></div>					
+						<p>SuperWebView</p>					
+						<p>帮助原生程序员快速迭代</p>
+					</div>
+				</dd>
+				<div class="border1"></div>
+				<dd>
+					<div class="navlistBox">
+					<div class="navlist-left subment-icon2"></div>					
+						<p>Deep Engine</p>
+						<p>高校的跨平台App引擎</p>					
+					</div>
+				</dd>
+				<div class="border1"></div>
+				<dd>
+					<div class="navlistBox">
+					<div class="navlist-left subment-icon3"></div>				
+						<p>数据云</p>
+						<p>无需编程 自动生成Server端</p>	
+					</div>					
+				</dd>
+			
+		</dl><dl>
+			<dt>云管理</dt>
+		</dl><dl>
+			<dt>聚合app</dt>
+		</dl><dl id="box-md-6">
+			<dt >开发者	</dt>
+			<dd>开发工具</dd>
+			<div class="border1"></div>
+			<dd>在线社区</dd>
+			<div class="border1"></div>
+			<dd>文档</dd>
+			<div class="border1"></div>
+			<dd>视频教程</dd>
+			<div class="border1"></div>
+			<dd>源码</dd>
+			<div class="border1"></div>
+			<dd>案例</dd>
+			<div class="border1"></div>
+		</dl><dl  id="box-md-6">
+			<dt>VIP服务</dt>
+			<dd>企业版</dd>
+			<div class="border1"></div>
+			<dd>优先技术支持</dd>
+			<div class="border1"></div>
+			<dd>渠道打包</dd>
+			<div class="border1"></div>
+			<dd>培训课程</dd>
+			<div class="border1"></div>
+			<dd>优惠价格</dd>
+			<div class="border1"></div>
+		</dl>
+		<span id="">
+			&nbsp;	
+		</span>
+		<dl>
+			<dt>
+				<a>登录</a>
+			</dt>
+		</dl><dl>
+			<dt>
+				<a>注册</a>
+			</dt>
+		</dl>
+	</div>
+</nav>
+
+<!--第一个盒子-->
+<header>
+	<img src="img/banner-20160810.jpg" alt="" class="headerimg" />
+	<div class="headercenter">
+		<div class="headercenterText">
+			<h2>APICloud 云端一体</h2>
+			<p class="titletext">重新定义移动应用开发</p>		
+			<a href="#" class="register">立即注册</a>
+		</div>
+	</div>
+</header>
+<!--第二个盒子-->
+<main>
+	
+		<h1>使用HTML5轻松开发高性能iOS、Android原生应用</h1>
+		<p class="colorF9">使用标准WEB技术轻松开发iOS、Android原生应用；覆盖APP全生命周期，包括开发、API集成、测试、渠道打包、运营管理等</p>
+		<div class="box">
+		<div class="runway">
+			<p>创建应用</p>
+			<p><span class="datenumber">520,521</span><span>个</span></p>
+		</div>
+		<div class="runway">
+			<p>累计生成安装包</p>
+			<p><span class="datenumber">520,521</span><span>个</span></p>
+		</div>
+		<div class="runway">
+			<p>API调用</p>
+			<p><span class="datenumber">
+11,462,625,030</span>次<span>个</span></p>
+		</div>
+	</div>
+</main>
+<!--第三个盒子-->
+<div>
+	<h2>使用APICloud开发各类App</h2>
+	<div class="phonebox" >
+		<div></div>
+	</div>
+	<div class="newbox">
+		<div class="new1"></div>
+		<div class="new1"></div>
+		<div class="new1"></div>
+	</div>
+	<a href="" class="btn-lg">更多案例</a>
+</div>
+
+
+<div class="box">
+	<div class="back-img">
+		<img src="img/filter (1).png" alt="" />
+	</div>
+</div>
+<div>
+	<video width="100%"  autoplay="autoplay" loop>
+		<source src="img/20ss.mp4" type="video/mp4" controls="controls"></source>
+		
+		<!--<source src="myvideo.ogv" type="video/ogg"></source>
+		<source src="myvideo.webm" type="video/webm"></source>
+		<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+			<param name="movie" value="myvideo.swf" />
+			<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+		</object>
+		当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>-->
+	</video>
+</div>
+<div style="height: 300px;"></div>
+<!--footer-->
+<footer>
+	<p class="copy">&copy;APICloud&nbsp;&nbsp;&nbsp;&nbsp;京ICP证151131号&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank">京公网安备 11010802020063号</a>
+    </p>
+</footer>
+</body>
+</html>
